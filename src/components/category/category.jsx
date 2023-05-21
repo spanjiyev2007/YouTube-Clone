@@ -2,7 +2,7 @@ import { Stack } from "@mui/material"
 import {category} from '../../constant'
 import { colors } from "../../constant/colors"
 
-function Category({selectedCatigoryHanfler,selectedCatigory}) {
+function Category({selectedCatigoryHanfler, selectedCatigory}) {
   return (
     <Stack direction={'row'} sx={{overflowX: 'scroll'}}>
         {category.map(item => (
