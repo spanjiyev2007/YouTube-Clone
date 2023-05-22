@@ -1,6 +1,7 @@
 import { Checkroom, DeveloperMode, FaceRetouchingNatural, FitnessCenter, GraphicEq, Home, LiveTv, MusicNote, OndemandVideo, School, SportsEsports, TheaterComedy } from "@mui/icons-material"
+import LLL from '../img/youtube.png'
 
-export const logo = 'https://media.graphassets.com/xdIRSn8OSb62Tv2l1og4'
+export const logo = LLL
 
 export const category = [
     {name: 'New', icon: <Home />},
